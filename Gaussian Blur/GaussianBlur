@@ -1,0 +1,44 @@
+from PIL import Image, ImageFilter
+import numpy as np
+import os
+
+#directory
+directory_path = '/users/Navneet/downloads/Apis mellifera'
+
+# new folder for processed photos
+processed_photos_path = os.path.join(directory_path, 'processed photos')
+if not os.path.exists(processed_photos_path):
+    os.makedirs(processed_photos_path)
+
+# get all files in the directory
+files = os.listdir(directory_path)
+
+# Process each image
+processed_images_paths = []
+for file in files:
+    # remove all files that aren't photos
+    if file.lower().endswith(('.png', '.jpg', '.jpeg')):
+        image_path = os.path.join(directory_path, file)
+        
+        # load the image
+        original_image = Image.open(image_path)
+        
+        # Calculate the Gaussian Blur radius
+        radius = np.mean([original_image.width/600, original_image.height/400]) / 2
+        
+        # Apply Gaussian Blur
+        blurred_image = original_image.filter(ImageFilter.GaussianBlur(radius=radius))
+        
+        # Resize the image to 600x400
+        resized_image = blurred_image.resize((600, 400))
+        
+        # export the processed images
+        processed_image_name = f'processed_{file}'
+        processed_image_path = os.path.join(processed_photos_path, processed_image_name)
+        resized_image.save(processed_image_path)
+        
+        # Add the processed image path to the list
+        processed_images_paths.append(processed_image_path)
+
+# return paths of all processed images
+processed_images_paths
