@@ -1,7 +1,7 @@
 # Data Science Capstone 2024: Bee Species Identification
-# Cheadle Center for Biodiversity and Ecological Restoration
-## Student Team: Rohit Kavuluru, Dannah Golich, Jennifer Rink, Patrick Moon, Navneet Rajagopal, Jiashu Huang, and Jason Siu
-## Sponsors and Mentor: Dr. Katja Seltmann, Dr. Madeleine Ostwald, and Dr. Laura Baracaldo Lancheros
+## Cheadle Center for Biodiversity and Ecological Restoration
+### Student Team: Rohit Kavuluru, Dannah Golich, Jennifer Rink, Patrick Moon, Navneet Rajagopal, Jiashu Huang, and Jason Siu
+### Sponsors and Mentor: Dr. Katja Seltmann, Dr. Madeleine Ostwald, and Dr. Laura Baracaldo Lancheros
 
 The Cheadle Center for Biodiversity and Ecological Restoration’s data science capstone project aims to mitigate the critical decline in bee populations by enhancing the efficiency and accuracy of population monitoring techniques by creating an automated classification system. In order to identify specific regions where bee populations are vulnerable, scientists and researchers need an accurate species identification method so they can focus on their efforts to save these essential pollinators that are crucial for ecosystem stability.
 
