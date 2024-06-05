@@ -18,7 +18,7 @@ The project’s deliverables include:
 
 In this repository, there are several folders:
 
--   Image Cropping: contains two folders for image cropping one outputting an image without ARuCO markers and one outputting an image with ARuCO markers
+-   <u> Image Cropping </u>: contains two folders for image cropping one outputting an image without ARuCO markers and one outputting an image with ARuCO markers
 
     -   Excluding ARuCO: contains 4 files-- the JupyterNotebook file for image cropping with line annotations, the rendered HTML file, the rendered .MD file, and the outputted cropped test image
     -   Including ARuCO: contains the same 4 files as the Excluding ARuCO folder but for outputted cropped images that include the ARuCO markers
