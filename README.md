@@ -18,25 +18,25 @@ The project’s deliverables include:
 
 In this repository, there are several folders:
 
--   <Image Cropping>: contains two folders for image cropping one outputting an image without ARuCO markers and one outputting an image with ARuCO markers
+-   <ins>Image Cropping</ins>: contains two folders for image cropping one outputting an image without ARuCO markers and one outputting an image with ARuCO markers
 
     -   Excluding ARuCO: contains 4 files-- the JupyterNotebook file for image cropping with line annotations, the rendered HTML file, the rendered .MD file, and the outputted cropped test image
     -   Including ARuCO: contains the same 4 files as the Excluding ARuCO folder but for outputted cropped images that include the ARuCO markers
  
--   <Perspective Correction>: JupyterNotebook tool to correct warped field bee wing images
+-   <ins> Perspective Correction</ins>: JupyterNotebook tool to correct warped field bee wing images
 
--   <Reports>: contains two JupyterNotebook scripts that explore Linear Discriminant Analysis (LDA) and Spectral Embedding with line annotations and a written report on the subjects
+-   <ins> Reports </ins>: contains two JupyterNotebook scripts that explore Linear Discriminant Analysis (LDA) and Spectral Embedding with line annotations and a written report on the subjects
     -   CCBER Capstone_ Wing Morphology Exploration.pdf: written report on both LDA and Spectral Embedding
     -   CCBER Relevant Sources Report.pdf: writte report on relevant sources to our project and future research
     -   SpectralEmbedding.ipynb: JupyterNotebook script exploring Spectral Embedding initially using the MNIST dataset and then adapting it to the bee wing images
     -   LDA.ipynb: JupyterNotebook script exploring LDA with line annotations
 
--   <VGG16>: contains 2 folders and 1 JupyterNotebook script containing the code for the neural network VVG-16
+-   <ins> VGG16 </ins>: contains 2 folders and 1 JupyterNotebook script containing the code for the neural network VVG-16
     -   Bootstrap: folder containing bootstrap.py script
     -   Gaussian Blur: folder containing GaussianBlur v2.py script
     -   vgg16_v2.ipynb: JupyterNotebook script that walks through training and testing the VGG-16 model with line annotations
  
--   <Wing Length Calculation>: contains two JupyterNotebook scripts--one that calculates wing length in mm from ARuCO markers, and one that calculates wing length in mm from the ruler
+-   <ins> Wing Length Calculation </ins>: contains two JupyterNotebook scripts--one that calculates wing length in mm from ARuCO markers, and one that calculates wing length in mm from the ruler
 
 
 
