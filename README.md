@@ -41,7 +41,7 @@ In this repository, there are several folders:
 
 
       
-
+**Necessary Installations**: JupyterNotebook, VSCode (or any IDE)
 
 The repository also contains this `README.md` file, which contains the description, contributors, abstract, contents, and references for this project.
 
