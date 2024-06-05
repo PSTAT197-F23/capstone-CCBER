@@ -52,3 +52,5 @@ B. -C. Kuo, H. -H. Ho, C. -H. Li, C. -C. Hung and J. -S. Taur, "A Kernel-Based F
 Kavlakoglu, Eda. Implementing Linear Discriminant Analysis (LDA) in Python, 18 Mar. 2024, developer.ibm.com/tutorials/awb-implementing-linear-discriminant-analysis-python/.
 
 Pewsey, Matt. “MNIST Handwritten Digit Classification.” Matt Pewsey, 28 Sept. 2021, mpewsey.github.io/2021/09/28/mnist-handwritten-digit-classification.html.
+
+Rodrigues PJ, et all (2022). DeepWings©: Automatic Wing Geometric Morphometrics Classification of Honey Bee (Apis mellifera) Subspecies Using Deep Learning for Detecting Landmarks. Big Data and Cognitive Computing.
