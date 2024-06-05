@@ -14,4 +14,24 @@ The project’s deliverables include:
 4) A pipeline for standardizing field images, including processes such as perspective correction, cropping, and any other necessary pre-processing steps in order to aid local population research and analysis.
 
 
+## Repository Contents
 
+In this repository, there are several folders:
+
+-   Bee winglength calculation: contains two JupyterNotebook scripts--one that calculates wing length in mm from ARuCO markers, and one that calculates wing length in mm from the ruler
+
+-   Image Cropping: contains two folders for image cropping one outputting an image without ARuCO markers and one outputting an image with ARuCO markers
+
+    -   Excluding ARuCO: contains 4 files-- the JupyterNotebook file for image cropping with line annotations, the rendered HTML file, the rendered .MD file, and the outputted cropped test image
+    -   Including ARuCO: contains the same 4 files as the Excluding ARuCO folder but for outputted cropped images that include the ARuCO markers
+
+-   Reports: contains two JupyterNotebook scripts that explore Linear Discriminant Analysis (LDA) and Spectral Embedding with line annotations and a written report on the subjects
+  -   CCBER Capstone_ Wing Morphology Exploration.pdf: written report on both LDA and Spectral Embedding
+  -   SpectralEmbedding.ipynb: JupyterNotebook script exploring Spectral Embedding initially using the digits dataset and then adapting it to the bee wing images
+  -   LDA.ipynb: JupyterNotebook script exploring LDA with line annotations
+
+-   Preprocessing-Landmarks:
+-   VGG16:
+-   perspective_correction
+
+The repository also contains this `README.md` file, which contains the description, contributors, abstract, contents, and references for this project.
