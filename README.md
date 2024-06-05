@@ -26,8 +26,8 @@ In this repository, there are several folders:
     -   Including ARuCO: contains the same 4 files as the Excluding ARuCO folder but for outputted cropped images that include the ARuCO markers
 
 -   Reports: contains two JupyterNotebook scripts that explore Linear Discriminant Analysis (LDA) and Spectral Embedding with line annotations and a written report on the subjects
-  -   CCBER Capstone_ Wing Morphology Exploration.pdf: written report on both LDA and Spectral Embedding
-  -   CCBER Relevant Sources Report: writte report on relevant sources to our project and future research
+    -   CCBER Capstone_ Wing Morphology Exploration.pdf: written report on both LDA and Spectral Embedding
+    -   CCBER Relevant Sources Report.pdf: writte report on relevant sources to our project and future research
   -   SpectralEmbedding.ipynb: JupyterNotebook script exploring Spectral Embedding initially using the MNIST dataset and then adapting it to the bee wing images
   -   LDA.ipynb: JupyterNotebook script exploring LDA with line annotations
 
