@@ -27,7 +27,7 @@ In this repository, there are several folders:
 
 -   Reports: contains two JupyterNotebook scripts that explore Linear Discriminant Analysis (LDA) and Spectral Embedding with line annotations and a written report on the subjects
   -   CCBER Capstone_ Wing Morphology Exploration.pdf: written report on both LDA and Spectral Embedding
-  -   SpectralEmbedding.ipynb: JupyterNotebook script exploring Spectral Embedding initially using the digits dataset and then adapting it to the bee wing images
+  -   SpectralEmbedding.ipynb: JupyterNotebook script exploring Spectral Embedding initially using the MNIST dataset and then adapting it to the bee wing images
   -   LDA.ipynb: JupyterNotebook script exploring LDA with line annotations
 
 -   Preprocessing-Landmarks:
