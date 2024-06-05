@@ -35,3 +35,11 @@ In this repository, there are several folders:
 -   perspective_correction
 
 The repository also contains this `README.md` file, which contains the description, contributors, abstract, contents, and references for this project.
+
+## References 
+
+B. -C. Kuo, H. -H. Ho, C. -H. Li, C. -C. Hung and J. -S. Taur, "A Kernel-Based Feature Selection Method for SVM With RBF Kernel for Hyperspectral Image Classification," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, no. 1, pp. 317-326, Jan. 2014, doi: 10.1109/JSTARS.2013.2262926. keywords: {Support vector machines;Kernel;Training;Hyperspectral imaging;Educational institutions;Feature extraction;Feature selection;hyperspectral image classification;kernel-based feature selection;radial basis function;support vector machines}
+
+Kavlakoglu, Eda. Implementing Linear Discriminant Analysis (LDA) in Python, 18 Mar. 2024, developer.ibm.com/tutorials/awb-implementing-linear-discriminant-analysis-python/.
+
+Pewsey, Matt. “MNIST Handwritten Digit Classification.” Matt Pewsey, 28 Sept. 2021, mpewsey.github.io/2021/09/28/mnist-handwritten-digit-classification.html.
